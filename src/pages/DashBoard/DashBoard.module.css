@@ -1,0 +1,134 @@
+.dashboard {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dashboard h2 {
+    font-size: 2.2em;
+    margin-bottom: 0.5em;
+  }
+  
+  .dashboard p {
+    color: #284B63;
+    margin-bottom: 1em;
+  }
+  
+  .noposts {
+    text-align: center;
+  }
+  
+  .noposts p {
+    margin-bottom: 1.5em;
+  }
+  
+  .noposts a {
+    padding: 10px 25px;
+  }
+  
+  .post_header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    border-bottom: 2px solid #284B63;
+    width: 80%;
+    padding: 10px;
+  }
+  
+  .post_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #D9D9D9;
+    width: 80%;
+    padding: 10px;
+  }
+  
+  .post_row p {
+    color: #353535;
+  }
+  
+  .post_row button,
+  .post_row a {
+    margin: 0 5px;
+    height: 30px;
+    width: 100px;
+    font-size: 0.7em;
+  }
+
+  .pagination {
+    display: flex;
+    margin-top: 25px;
+    
+  }
+
+  button {
+    margin-right: 10px;
+  }
+
+
+  .activePage {
+    font-family: "Young Serif", sans-serif;
+    padding: 20px 20px;
+    background-color: #284B63;
+    color: #FFFFFF;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 120px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: none;
+    font-size: 1em;
+  }
+  .disabledPage {
+    cursor: default !important;
+    font-family: "Young Serif", sans-serif;
+    padding: 20px 20px;
+    background-color: #284B63 !important;
+    color: #FFFFFF;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 120px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: none;
+    font-size: 1em;
+
+  }
+  .activePageNumber {
+    font-family: "Young Serif", sans-serif;
+    background-color: #284B63;
+    color: #FFFFFF;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 50px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: none;
+    font-size: 1em;
+  }
+
+  .disabledPageNumber {
+    cursor: default !important;
+    font-family: "Young Serif", sans-serif;
+    background-color: #3C6E71 !important;
+    color: #FFFFFF;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 50px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: none;
+    font-size: 1em;
+  }
+
+  @media (max-width: 480px) {
+    
+
+  }
