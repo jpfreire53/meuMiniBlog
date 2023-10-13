@@ -132,26 +132,21 @@
     font-size: 1em;
   }
 
- /* Adicione essas regras de mídia query ao seu arquivo de estilos CSS */
-
-/* Estilo para telas com largura menor que 768px (por exemplo, tablets) */
-/* Estilo para telas com largura igual ou menor que 768px */
-/* Estilo para telas com largura igual ou menor que 768px */
 @media screen and (max-width: 580px) {
   .post_header{
     display: none;
   }
 
   .dashboard {
-    padding: 0 10px; /* Reduza o espaçamento na dashboard */
+    padding: 0 10px; 
   }
 
   .post_row {
-    border: 1px solid #D9D9D9; /* Adicione uma borda a cada post */
+    border: 1px solid #D9D9D9; 
     padding: 10px;
     margin-bottom: 10px;
     display: flex;
-    flex-direction: column; /* Empilhe os elementos verticalmente */
+    flex-direction: column; 
   }
 
   .post_row p {
@@ -160,28 +155,26 @@
 
   .actions {
     display: flex;
-    justify-content: center; /* Centralize os botões horizontalmente */
-    margin-top: 10px; /* Adicione um espaçamento acima dos botões */
+    justify-content: center;
+    margin-top: 10px; 
   }
 
   .actions .btn {
-    width: 100%; /* Preencha a largura da box */
-    margin: 5px 0; /* Adicione um espaçamento entre os botões acima e abaixo */
+    width: 100%;
+    margin: 5px 0;
   }
 }
 
-
-/* Estilo para telas com largura menor que 480px (por exemplo, smartphones) */
 @media screen and (max-width: 480px) {
   .post_header {
     display: noned;
   }
 
   .pagination {
-    flex-direction: column; /* Empilhe os botões de paginação verticalmente */
+    flex-direction: column; 
   }
   
   .pagination button {
-    width: 100%; /* Preencha a largura da tela */
+    width: 100%; 
   }
 }
