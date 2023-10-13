@@ -48,7 +48,6 @@
         display: inline-flex;
     }
     
-
     .links_list {
         display: none;
     }
@@ -99,6 +98,4 @@
         left: .2px;
         color: #FFFFFF;
     }
-
-    
 }

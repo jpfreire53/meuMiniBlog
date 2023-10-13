@@ -46,3 +46,19 @@
     }
 
   }
+
+  @media(max-width: 480px) {
+    h1 {
+      font-size: large;
+      display: inline-block;
+    }
+
+    .homePosts {
+      align-items: center;
+      justify-content: center;
+      display: inline-block;
+      text-align: center;
+      width: 80%;
+
+    }
+  }
